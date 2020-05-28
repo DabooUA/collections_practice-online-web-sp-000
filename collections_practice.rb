@@ -24,6 +24,6 @@ end
 
 def reverse_array(integers)
   integers.sort do |a, b|
-    b<=>a 
+    b<=>a
   end 
 end
