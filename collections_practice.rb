@@ -39,7 +39,7 @@ end
 
 def find_a(collection)
 	i = 0
-	while i < collection.length
+	while i < collection.start_with?(a)
 	return collection[i] if yield(collection[i])
 	i = i + 1
 	end
