@@ -23,7 +23,6 @@ return array
 end
 
 def reverse_array(integers)
-  integers.sort do |a, b|
-    b<=>a
-  end 
+  num_array = integers.reverse 
+  return num_array 
 end
