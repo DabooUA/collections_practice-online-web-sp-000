@@ -37,10 +37,8 @@ def kesha_maker(array)
   kesha
 end
 
-def find_a(collection)
-	i = 0
-	while i < collection.start_with?(a)
-	return collection[i] if yield(collection[i])
-	i = i + 1
+def find_a(array)
+	array.select do |string| 
+  string.start_with?("a")
 	end
 end
