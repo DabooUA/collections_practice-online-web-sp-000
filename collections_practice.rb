@@ -41,6 +41,6 @@ def find_a(array)
 	i = 0
 	while i < collection.start_with?("a")
 	return collection[i] if yield(collection[i])
-	i = i + 1
+	i += 1
 	end
 end
