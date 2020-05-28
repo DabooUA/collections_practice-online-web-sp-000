@@ -23,6 +23,6 @@ return array
 end
 
 def reverse_array(integers)
-  num_array = integers.reverse 
+  num_array = integers.reverse
   return num_array 
 end
