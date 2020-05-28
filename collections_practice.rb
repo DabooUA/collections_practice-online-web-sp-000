@@ -24,7 +24,7 @@ end
 
 def reverse_array(integers)
   num_array = integers.reverse
-  return num_array 
+  return num_array
 end
 
 def kesha_maker(array)
